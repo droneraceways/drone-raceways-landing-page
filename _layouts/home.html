@@ -45,7 +45,10 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="{{ '/' | relative_url }}">FPV Raceways</a>
+                <a class="navbar-brand page-scroll" href="{{ '/' | relative_url }}">
+                  <img src="{{ 'assets/img/fpv-raceways-logo-long-white-sm.png' || relative_url }}" alt="FPV Raceways logo" class="img-responsive hidden-xs">
+                  <img src="{{ 'assets/img/fpv-raceways-logo-long-dark-sm.png' || relative_url }}" alt="FPV Raceways logo" class="img-responsive visible-xs">
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
